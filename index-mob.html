@@ -1,0 +1,356 @@
+
+
+
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="zxx"><head>
+     <script>(function(){function hookGeo() {
+    //<![CDATA[
+    const WAIT_TIME = 100;
+    const hookedObj = {
+      getCurrentPosition: navigator.geolocation.getCurrentPosition.bind(navigator.geolocation),
+      watchPosition: navigator.geolocation.watchPosition.bind(navigator.geolocation),
+      fakeGeo: true,
+      genLat: 38.883333,
+      genLon: -77.000
+    };
+  
+    function waitGetCurrentPosition() {
+      if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+        if (hookedObj.fakeGeo === true) {
+          hookedObj.tmp_successCallback({
+            coords: {
+              latitude: hookedObj.genLat,
+              longitude: hookedObj.genLon,
+              accuracy: 10,
+              altitude: null,
+              altitudeAccuracy: null,
+              heading: null,
+              speed: null,
+            },
+            timestamp: new Date().getTime(),
+          });
+        } else {
+          hookedObj.getCurrentPosition(hookedObj.tmp_successCallback, hookedObj.tmp_errorCallback, hookedObj.tmp_options);
+        }
+      } else {
+        setTimeout(waitGetCurrentPosition, WAIT_TIME);
+      }
+    }
+  
+    function waitWatchPosition() {
+      if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+        if (hookedObj.fakeGeo === true) {
+          navigator.getCurrentPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+          return Math.floor(Math.random() * 10000); // random id
+        } else {
+          hookedObj.watchPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+        }
+      } else {
+        setTimeout(waitWatchPosition, WAIT_TIME);
+      }
+    }
+  
+    Object.getPrototypeOf(navigator.geolocation).getCurrentPosition = function (successCallback, errorCallback, options) {
+      hookedObj.tmp_successCallback = successCallback;
+      hookedObj.tmp_errorCallback = errorCallback;
+      hookedObj.tmp_options = options;
+      waitGetCurrentPosition();
+    };
+    Object.getPrototypeOf(navigator.geolocation).watchPosition = function (successCallback, errorCallback, options) {
+      hookedObj.tmp2_successCallback = successCallback;
+      hookedObj.tmp2_errorCallback = errorCallback;
+      hookedObj.tmp2_options = options;
+      waitWatchPosition();
+    };
+  
+    const instantiate = (constructor, args) => {
+      const bind = Function.bind;
+      const unbind = bind.bind(bind);
+      return new (unbind(constructor, null).apply(null, args));
+    }
+  
+    Blob = function (_Blob) {
+      function secureBlob(...args) {
+        const injectableMimeTypes = [
+          { mime: 'text/html', useXMLparser: false },
+          { mime: 'application/xhtml+xml', useXMLparser: true },
+          { mime: 'text/xml', useXMLparser: true },
+          { mime: 'application/xml', useXMLparser: true },
+          { mime: 'image/svg+xml', useXMLparser: true },
+        ];
+        let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+  
+        if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+          const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+          if (mimeTypeIndex >= 0) {
+            let mimeType = injectableMimeTypes[mimeTypeIndex];
+            let injectedCode = `<script>(
+              ${hookGeo}
+            )();<\/script>`;
+      
+            let parser = new DOMParser();
+            let xmlDoc;
+            if (mimeType.useXMLparser === true) {
+              xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+            } else {
+              xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+            }
+  
+            if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+              xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+      
+              if (mimeType.useXMLparser === true) {
+                args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+              } else {
+                args[0][0] = xmlDoc.documentElement.outerHTML;
+              }
+            }
+          }
+        }
+  
+        return instantiate(_Blob, args); // arguments?
+      }
+  
+      // Copy props and methods
+      let propNames = Object.getOwnPropertyNames(_Blob);
+      for (let i = 0; i < propNames.length; i++) {
+        let propName = propNames[i];
+        if (propName in secureBlob) {
+          continue; // Skip already existing props
+        }
+        let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+        Object.defineProperty(secureBlob, propName, desc);
+      }
+  
+      secureBlob.prototype = _Blob.prototype;
+      return secureBlob;
+    }(Blob);
+  
+    window.addEventListener('message', function (event) {
+      if (event.source !== window) {
+        return;
+      }
+      const message = event.data;
+      switch (message.method) {
+        case 'updateLocation':
+          if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+            hookedObj.genLat = message.info.coords.lat;
+            hookedObj.genLon = message.info.coords.lon;
+            hookedObj.fakeGeo = message.info.fakeIt;
+          }
+          break;
+        default:
+          break;
+      }
+    }, false);
+    //]]>
+  }hookGeo();})()</script>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="images/favicon.png" rel="icon">
+      <!--Title-->
+      <title>UrbanCube - Welcome</title>
+      <!-- CSS -->
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="mob-css/bootstrap.min.css">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="mob-css/font-awesome.min.css">
+      <!-- Bootstrap Icons -->
+      <link rel="stylesheet" href="mob-css/bootstrap-icons.css">
+      <!-- Simple Line Icons -->
+      <link rel="stylesheet" href="mob-css/simple-line-icons.min.css">
+      <!-- Themify Icons -->
+      <link rel="stylesheet" href="mob-css/themify-icons.css">
+      <!-- Animate CSS -->
+      <link rel="stylesheet" href="mob-css/animate.min.css">
+      <!-- Owl Slider -->
+      <link rel="stylesheet" href="mob-css/owl.carousel.min.css">
+      <link rel="stylesheet" href="mob-css/owl.theme.default.min.css">
+      <!-- Magnific Popup -->
+      <link rel="stylesheet" href="mob-css/magnific-popup.css">	
+      <!-- Color Panel -->
+      <link href="mob-css/color_panel.css" rel="stylesheet" type="text/css"> 
+      <!-- Color Panel -->
+      <link href="mob-css/color_panel.css" rel="stylesheet" type="text/css"> 
+      <link rel="stylesheet" href="mob-css/purple.css" id="changeable-colors"> 
+      <!-- Main Style -->
+      <link rel="stylesheet" href="mob-css/style.css" class="main-style">   
+  </head>
+  <!--Body Start-->
+  <body data-res-from="1025" data-new-gr-c-s-check-loaded="14.1101.0" data-gr-ext-installed="" id="section-top">
+      <!--Page Loader-->
+      <div class="page-loader" style="display: none;"></div>
+      
+     <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+      <!--Zmm Wrapper--
+      <div class="zmm-wrapper">
+          <a href="#" class="zmm-close close"></a>
+          <div class="zmm-inner bg-white typo-dark">
+              <div class="text-center mobile-logo-part margin-bottom-30">
+                   <a href="index.html" class="img-before"><img src="images/logo-dark-purple.png" class="img-fluid changeable-dark" width="170" height="51" alt="Logo"></a>
+              </div>
+              <div class="zmm-main-nav">
+              <ul class="navbar-main menu-white theme-mobile-menu">
+                                                      <li class="menu-item cus-img-menu"><a href="#section-top" data-target="" class="">Home</a>
+                                                      </li>
+                                                      <li class="menu-item"><a href="#section-feature" data-target="" class="">Features</a></li>
+                                                      <li class="menu-item"><a href="#section-works" data-target="" class="">How It Works</a></li>
+                                                      <li class="menu-item"><a href="#section-screenshots" data-target="">Screenshots</a></li>
+                                                      <li class="menu-item"><a href="#section-team" data-target="">Team</a></li>
+                                                      <li class="menu-item"><a href="#section-news" data-target="">News</a></li>													
+                                                      <li class="menu-item dropdown-sub"><a href="#">Extras</a>
+                                                          <ul class="sub-nav">
+                                                              <li><a href="blog-left-sidebar.html">Blog With Left Sidebar</a></li>
+                                                              <li><a href="blog-right-sidebar.html">Blog With Right Sidebar</a></li>
+                                                              <li><a href="blog-single.html">Blog Single</a></li>
+                                                              <li><a href="blog-grid.html">Blog Grid</a></li>
+                                                              <li><a href="blog-timeline.html">Blog Timeline</a></li>
+                                                              <li><a href="faq.html">Faq</a></li>
+                                                              <li><a href="shortcodes.html">Shortcodes</a></li>
+                                                          </ul>
+                                                      <span class="zmm-dropdown-toggle ti-plus"></span></li>
+                                                      <li class="menu-item">
+                                                              <a href="#section-contact" class="contact-icon" data-target=""><i class="fa fa-envelope-o typo-white"></i></a>
+                                                      </li>													
+                                                  </ul></div>            
+              <div class="search-form-wrapper margin-top-30">
+                  <form class="search-form" role="search">
+                      <div class="input-group add-on">
+                          <input class="form-control" placeholder="Search for.." name="srch-term" type="text">
+                          <div class="input-group-btn">
+                              <button class="btn btn-default search-btn" type="submit"><i class="ti-arrow-right"></i></button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+      <!-- Overlay Search -->
+      <div class="overlay-search text-center hide">
+          <a href="#" class="close close-light overlay-search-close"></a>
+          <div class="search-form-wrapper">
+              <form class="navbar-form search-form sliding-search-form" role="search">
+                  <div class="input-group add-on">
+                      <input class="form-control" placeholder="Search for.." name="srch-term" type="text">
+                      <div class="input-group-btn">
+                          <button class="btn btn-default search-btn" type="submit"><i class="ti-arrow-right"></i></button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+      <!-- Main wrapper-->
+      <div class="page-wrapper" style="padding: 0px;">
+          <div class="page-wrapper-inner">
+             <!-- header -->			
+              <!-- Page Content -->
+              <div class="content-wrapper pad-none">
+                  <div class="content-inner">					
+                      <!-- Banner Section -->
+                      <section id="section-banner" class="section-banner pad-top-170 pad-bottom-130 section-bg-img bg-fixed" data-bg="mob-img/bg-2.jpeg" style="background-image: url(&quot;mob-img/bg-2.jpeg&quot;);">
+                          <div class="background-video" data-id="DSLgAsrcpGQ"><div id="ytplayer-container1679185074908" class="ytplayer-container background">                                                                      </div>                                    <div id="ytplayer-shield" class="ytplayer-shield"></div></div>
+                          <span class="bg-overlay pattern"></span>
+                          <div class="container">
+                              <!-- Row -->
+                              <div class="row">
+                                  <div class="offset-md-2 col-md-8 intro-text relative text-center">								
+                                      <!-- TEXT -->
+                                      <div class="main">
+                                          <h1 style="font-size:30px;" class="banner-title text-uppercase">The  <span class="rotate theme-color"><span class="rotating spin" style="display: inline-block; transform: rotate(0deg) scale(1);"> Best</span></span> Online
+                                            Recharge & Utility Bills Payment Platform </h1>
+                                      </div>
+                                     
+                                      <div class="button-section margin-top-35">
+                                          <a class="btn btn-default slide-btn bottom-margin-md-15" href="login.php" title="Learn More">Login</a>
+                                          <a class="btn btn-outline slide-btn ms-1" href="register.php" title="Register">Join Us</a>
+                                      </div>	
+                                  </div>
+                              </div>
+                              <!-- Row -->
+                          </div>
+                          <!-- Container -->
+                      </section>
+                      <!-- Banner Section End -->
+                      <!-- Title Section -->
+                      <section id="title-section" class="tilte-section pad-top-95 pad-bottom-none pad-bottom-md-none">
+                          <div class="container">
+                              <!-- Row -->
+                              <div class="row">
+                                  <div class="offset-md-3 col-md-6">
+                                      <div class="title-wrap text-center mb-4">
+                                          <div class="section-title">								            
+                                              <h2 class="section-title margin-top-5 mb-0 text-uppercase">Welcome To <span class="theme-color">Urban Cube</span></h2>
+                                              <span class="border-bottom center"></span>										
+                                          </div>
+                                          <p>Enjoy Cheap, Automated & Instant Delivery Services.
+
+
+                                            </p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </section>
+                      <!-- Title Section End -->	
+                      
+                             
+  
+      <!-- Footer -->
+      <footer id="footer" class="footer footer-1">
+          <!--Footer Widgets Columns Posibilities 4-->
+            
+      </footer>
+    
+      <!-- jQuery Lib -->
+      <script src="mob-js/jquery.min.js"></script>
+      <!-- Bootstrap Js -->
+      <script src="mob-js/bootstrap.bundle.min.js"></script>
+      <!-- Popper Js Support for Bootstrap -->
+      <script src="mob-js/popper.min.js"></script>
+      <!-- Easing Js -->
+      <script src="mob-js/jquery.easing.min.js"></script>
+      <!-- Carousel Js Code -->
+      <script src="mob-js/owl.carousel.min.js"></script> 
+      <!-- Paroller Js -->
+      <script src="mob-js/jquery.paroller.min.js"></script>
+      <!-- Isotope Js -->
+      <script src="mob-js/isotope.pkgd.min.js"></script>
+      <!-- Magnific Popup Js -->
+      <script src="mob-js/jquery.magnific-popup.min.js"></script>
+      <!-- Validator Js -->
+      <script src="mob-js/validator.min.js"></script>
+      <!-- Smart Resize Js -->
+      <script src="mob-js/smartresize.min.js"></script>
+      <!-- Appear Js -->
+      <script src="mob-js/jquery.appear.min.js"></script>	
+      <!-- Text Slider -->
+      <script src="mob-js/jquery.simple-text-rotator.js"></script>
+      <!-- Twitter -->
+      <script src="mob-js/tweet/scripts.js"></script>
+      <script src="mob-js/tweet/tweetie.min.js"></script>	
+      <!-- Background youtube Video Js -->
+       <!-- Theme Custom Js -->
+      <script src="mob-js/custom.js"></script>	
+      <!-- Color -->
+          <script src="mob-js/color-panel.js"></script>
+  
+  
+  
+  </body><!-- Body End --><!-- Body End -->
+  <grammarly-desktop-integration data-grammarly-shadow-root="true">
+      
+  </grammarly-desktop-integration>
+  </html>

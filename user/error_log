@@ -1,0 +1,800 @@
+[12-Apr-2023 01:25:35 UTC] PHP Parse error:  syntax error, unexpected variable "$row" in /home/j6esa3cadd9v/public_html/user/BuyData.php on line 270
+[12-Apr-2023 01:27:53 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/j6esa3cadd9v/public_html/user/BuyData.php on line 270
+[12-Apr-2023 01:28:53 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/j6esa3cadd9v/public_html/user/BuyData.php on line 270
+[12-Apr-2023 01:29:09 UTC] PHP Parse error:  syntax error, unexpected identifier "id" in /home/j6esa3cadd9v/public_html/user/BuyData.php on line 270
+[12-Apr-2023 01:29:32 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/j6esa3cadd9v/public_html/user/BuyData.php on line 270
+[12-Apr-2023 01:38:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/j6esa3cadd9v/public_html/user/header.php on line 2
+[12-Apr-2023 01:38:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/j6esa3cadd9v/public_html/user/receipt.php:1) in /home/j6esa3cadd9v/public_html/user/header.php on line 22
+[12-Apr-2023 01:38:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/j6esa3cadd9v/public_html/user/header.php on line 2
+[12-Apr-2023 01:38:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/j6esa3cadd9v/public_html/user/receipt.php:1) in /home/j6esa3cadd9v/public_html/user/header.php on line 22
+[12-Apr-2023 01:39:05 UTC] PHP Parse error:  syntax error, unexpected identifier "Helvetica" in /home/j6esa3cadd9v/public_html/user/receipt.php on line 18
+[12-Apr-2023 01:41:17 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/j6esa3cadd9v/public_html/user/receipt.php on line 26
+[12-Apr-2023 01:41:29 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/j6esa3cadd9v/public_html/user/receipt.php on line 26
+[12-Apr-2023 01:42:27 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/j6esa3cadd9v/public_html/user/receipt.php on line 26
+[12-Apr-2023 01:42:35 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/j6esa3cadd9v/public_html/user/receipt.php on line 26
+[12-Apr-2023 01:43:34 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/j6esa3cadd9v/public_html/user/receipt.php on line 26
+[12-Apr-2023 01:44:10 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/j6esa3cadd9v/public_html/user/receipt.php on line 3
+[12-Apr-2023 01:44:18 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/j6esa3cadd9v/public_html/user/receipt.php on line 3
+[12-Apr-2023 02:14:11 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:14:11 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:14:55 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:14:56 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:14:58 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:14:58 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:15:03 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:15:03 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:15:05 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:15:06 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:16:24 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:16:24 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:16:36 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:16:36 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 9
+[12-Apr-2023 02:23:28 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 324
+[12-Apr-2023 02:24:48 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 302
+[12-Apr-2023 02:25:08 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 4
+[12-Apr-2023 02:25:08 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 4
+[12-Apr-2023 02:26:38 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 4
+[12-Apr-2023 02:26:38 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 298
+[12-Apr-2023 02:26:39 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 4
+[12-Apr-2023 02:26:39 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 298
+[12-Apr-2023 02:27:32 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 4
+[12-Apr-2023 02:27:32 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 298
+[12-Apr-2023 02:27:34 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 4
+[12-Apr-2023 02:27:34 UTC] PHP Warning:  Undefined array key "id" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 298
+[12-Apr-2023 02:28:24 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 324
+[12-Apr-2023 02:29:30 UTC] PHP Parse error:  syntax error, unexpected identifier "content" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 331
+[12-Apr-2023 02:33:44 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 326
+[12-Apr-2023 02:33:46 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 326
+[12-Apr-2023 02:35:31 UTC] PHP Parse error:  syntax error, unexpected token "." in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 326
+[12-Apr-2023 02:46:29 UTC] PHP Parse error:  syntax error, unexpected variable "$status" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 332
+[12-Apr-2023 02:47:06 UTC] PHP Parse error:  syntax error, unexpected variable "$stats" in /home/j6esa3cadd9v/public_html/user/DataReceipt.php on line 332
+[12-Apr-2023 06:00:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 06:14:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 06:19:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 06:24:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 06:29:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 06:34:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 06:40:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 06:45:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 06:50:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 06:55:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 19:46:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 19:51:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 19:56:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 20:01:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 20:06:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 20:11:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 20:16:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 20:21:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 20:26:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[12-Apr-2023 20:31:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 00:04:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 00:21:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 00:26:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 00:32:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 00:37:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 00:42:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 00:47:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 00:52:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 00:57:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 01:03:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 08:37:09 UTC] PHP Warning:  Undefined array key "login" in /home/j6esa3cadd9v/public_html/user/newTransaction.php on line 5
+[13-Apr-2023 09:02:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 13:15:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 14:15:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:02:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:04:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:07:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:09:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:12:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:14:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:17:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:19:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:22:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:24:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:28:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:29:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:33:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:34:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:38:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:40:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:43:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[13-Apr-2023 22:45:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 08:36:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 08:37:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 08:41:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 08:46:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 08:51:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 08:56:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 09:01:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 09:06:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 09:12:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 09:17:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 11:04:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 11:09:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 11:14:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 11:20:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 11:25:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 11:30:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 11:35:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 11:40:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 11:45:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 11:50:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 20:51:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 20:56:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 21:01:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 21:06:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 21:11:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 21:17:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 21:22:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 21:27:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 21:32:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 21:37:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 23:33:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 23:38:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 23:43:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 23:48:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 23:53:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[14-Apr-2023 23:58:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 00:03:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 00:08:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 00:13:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 00:18:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 11:47:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 11:52:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 11:57:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 12:02:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 12:07:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 12:12:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 12:17:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 12:22:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 12:28:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[15-Apr-2023 12:33:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 7
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 7
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:29:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 7
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 7
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:32:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Undefined array key "eventData" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:33:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:34:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:34:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:36:03 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/j6esa3cadd9v/public_html/user/successMessage.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:36:08 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/j6esa3cadd9v/public_html/user/successMessage.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:36:16 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/j6esa3cadd9v/public_html/user/successMessage.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:36:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:36:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:36:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:36:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:36:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:36:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:37:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:37:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:37:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:38:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 14
+[16-Apr-2023 15:38:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 14
+[16-Apr-2023 15:38:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:38:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:38:43 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:39:56 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/j6esa3cadd9v/public_html/user/successMessage.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:40:46 UTC] PHP Warning:  Attempt to read property "eventData" on string in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:41:01 UTC] PHP Warning:  Attempt to read property "eventData" on string in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:41:56 UTC] PHP Warning:  Undefined array key "destinationAccountInformation" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:41:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:43:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:37
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(37): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 37
+[16-Apr-2023 15:46:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:37
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(37): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 37
+[16-Apr-2023 15:47:56 UTC] PHP Warning:  Undefined array key "transactionReference" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:47:56 UTC] PHP Warning:  Undefined array key "amountPaid" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:47:56 UTC] PHP Warning:  Undefined array key "product" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:47:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:47:56 UTC] PHP Warning:  Undefined array key "paymentStatus" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:47:56 UTC] PHP Warning:  Undefined array key "destinationAccountInformation" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 14
+[16-Apr-2023 15:47:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 14
+[16-Apr-2023 15:47:56 UTC] PHP Warning:  Undefined array key "destinationAccountInformation" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:47:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:49:22 UTC] PHP Warning:  Undefined array key "transactionReference" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:49:22 UTC] PHP Warning:  Undefined array key "amountPaid" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 11
+[16-Apr-2023 15:49:22 UTC] PHP Warning:  Undefined array key "product" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:49:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 12
+[16-Apr-2023 15:49:22 UTC] PHP Warning:  Undefined array key "paymentStatus" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 13
+[16-Apr-2023 15:49:22 UTC] PHP Warning:  Undefined array key "destinationAccountInformation" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 14
+[16-Apr-2023 15:49:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 14
+[16-Apr-2023 15:49:22 UTC] PHP Warning:  Undefined array key "destinationAccountInformation" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:49:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 15
+[16-Apr-2023 15:53:06 UTC] PHP Warning:  Undefined array key "transactionReference" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 18
+[16-Apr-2023 15:53:06 UTC] PHP Warning:  Undefined array key "amountPaid" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 19
+[16-Apr-2023 15:53:06 UTC] PHP Warning:  Undefined array key "product" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 20
+[16-Apr-2023 15:53:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 20
+[16-Apr-2023 15:53:06 UTC] PHP Warning:  Undefined array key "paymentStatus" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 21
+[16-Apr-2023 15:53:06 UTC] PHP Warning:  Undefined array key "accountDetails" in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 22
+[16-Apr-2023 15:53:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 22
+[16-Apr-2023 15:55:18 UTC] PHP Warning:  Array to string conversion in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:55:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Array' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:9
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(9): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:55:43 UTC] PHP Warning:  Array to string conversion in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 8
+[16-Apr-2023 15:55:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Array' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:9
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(9): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 9
+[16-Apr-2023 15:56:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"eventData" :
+{
+    "transactionReference": "MNFY|20200900003149|000000",
+   ' at line 1 in /home/j6esa3cadd9v/public_html/user/successMessage.php:10
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 10
+[16-Apr-2023 15:59:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'balance' in 'field list' in /home/j6esa3cadd9v/public_html/user/successMessage.php:34
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/successMessage.php(34): mysqli_query()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/successMessage.php on line 34
+[21-Apr-2023 21:34:40 UTC] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home/j6esa3cadd9v/public_html/user/Wallet.php:330
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/Wallet.php(330): number_format()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/Wallet.php on line 330
+[21-Apr-2023 21:35:35 UTC] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home/j6esa3cadd9v/public_html/user/Wallet.php:330
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/Wallet.php(330): number_format()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/Wallet.php on line 330
+[23-Apr-2023 13:33:15 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/j6esa3cadd9v/public_html/user/newTransaction.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/newTransaction.php on line 56
+[23-Apr-2023 14:17:08 UTC] PHP Warning:  Undefined array key "network" in /home/j6esa3cadd9v/public_html/user/saveCable2.php on line 14
+[23-Apr-2023 14:17:08 UTC] PHP Warning:  Undefined array key "amount" in /home/j6esa3cadd9v/public_html/user/saveCable2.php on line 15
+[23-Apr-2023 16:10:28 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home/j6esa3cadd9v/public_html/user/newTransaction.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/newTransaction.php on line 56
+[24-Apr-2023 18:22:35 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[24-Apr-2023 18:22:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[26-Apr-2023 19:40:04 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[26-Apr-2023 19:40:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[29-Apr-2023 18:16:03 UTC] PHP Warning:  Undefined array key "network" in /home/j6esa3cadd9v/public_html/user/saveCable2.php on line 14
+[29-Apr-2023 18:16:03 UTC] PHP Warning:  Undefined array key "amount" in /home/j6esa3cadd9v/public_html/user/saveCable2.php on line 15
+[30-Apr-2023 19:07:44 UTC] PHP Warning:  Undefined array key "network" in /home/j6esa3cadd9v/public_html/user/saveCable2.php on line 14
+[30-Apr-2023 19:07:44 UTC] PHP Warning:  Undefined array key "amount" in /home/j6esa3cadd9v/public_html/user/saveCable2.php on line 15
+[01-May-2023 12:17:14 UTC] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home/j6esa3cadd9v/public_html/user/Wallet.php:330
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/Wallet.php(330): number_format()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/Wallet.php on line 330
+[01-May-2023 12:19:22 UTC] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home/j6esa3cadd9v/public_html/user/Wallet.php:330
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/Wallet.php(330): number_format()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/Wallet.php on line 330
+[03-May-2023 18:39:44 UTC] PHP Warning:  Undefined array key "network" in /home/j6esa3cadd9v/public_html/user/saveCable2.php on line 14
+[03-May-2023 18:39:44 UTC] PHP Warning:  Undefined array key "amount" in /home/j6esa3cadd9v/public_html/user/saveCable2.php on line 15
+[10-May-2023 22:10:43 UTC] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home/j6esa3cadd9v/public_html/user/Wallet.php:330
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/Wallet.php(330): number_format()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/Wallet.php on line 330
+[10-May-2023 22:10:53 UTC] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home/j6esa3cadd9v/public_html/user/Wallet.php:330
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/Wallet.php(330): number_format()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/Wallet.php on line 330
+[23-May-2023 13:36:55 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[23-May-2023 13:36:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[26-May-2023 15:35:59 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[26-May-2023 15:35:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[26-May-2023 21:00:21 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[26-May-2023 21:00:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[28-May-2023 03:50:27 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[28-May-2023 03:50:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[28-May-2023 07:52:32 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[28-May-2023 07:52:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[28-May-2023 09:24:19 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[28-May-2023 09:24:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[28-May-2023 15:11:39 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[28-May-2023 15:11:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[30-May-2023 18:56:11 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[30-May-2023 18:56:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[31-May-2023 16:24:41 UTC] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home/j6esa3cadd9v/public_html/user/Wallet.php:330
+Stack trace:
+#0 /home/j6esa3cadd9v/public_html/user/Wallet.php(330): number_format()
+#1 {main}
+  thrown in /home/j6esa3cadd9v/public_html/user/Wallet.php on line 330
+[07-Jun-2023 13:01:14 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[07-Jun-2023 13:01:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[16-Jun-2023 19:01:19 UTC] PHP Warning:  Undefined variable $online in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
+[16-Jun-2023 19:01:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/j6esa3cadd9v/public_html/user/buydata.php on line 19
